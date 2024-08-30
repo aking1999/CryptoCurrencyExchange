@@ -1,9 +1,6 @@
 # CryptoExchange.Net
-[![.NET](https://github.com/JKorf/CryptoExchange.Net/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/JKorf/CryptoExchange.Net/actions/workflows/dotnet.yml) ![Nuget version](https://img.shields.io/nuget/v/CryptoExchange.Net.svg)  ![Nuget downloads](https://img.shields.io/nuget/dt/CryptoExchange.Net.svg)
 
 CryptoExchange.Net is a base package which can be used to easily implement crypto currency exchange API's in C#. This library offers base classes for creating rest and websocket clients, and includes additional features like an automatically synchronizing order book implementation, error handling and automatic reconnects on websocket connections.
-
-[Documentation](https://jkorf.github.io/CryptoExchange.Net/)
 
 ## Release notes
 * Version 5.1.9 - 08 May 2022
@@ -48,7 +45,6 @@ CryptoExchange.Net is a base package which can be used to easily implement crypt
     * Small rework client options
 
 * Version 5.0.0
-	* Added Github.io page for documentation: https://jkorf.github.io/CryptoExchange.Net/
 	* Added single DateTimeConverter replacing the different timestamp converters 
 	* Added additional request related properties to WebCallResult
 	* Added CancelationToken support for websockets
